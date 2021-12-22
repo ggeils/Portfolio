@@ -73,24 +73,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   }
 
-.aboutMe {
+.about {
     text-align: center;
     color: blue;
     padding: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-
-/* Image Positioning */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 /* General work content styling */
  .wContent {
