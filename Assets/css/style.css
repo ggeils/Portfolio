@@ -83,33 +83,18 @@ p {
 
 /* General work content styling */
  .wContent {
-    width: 50%;
-    display: inline-block;
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 /* Styling Class for three main work sections*/
 .wSpacing {
-    position: relative;
-    text-align: center;
-    padding: 50px;
-    height: 300px;
+    padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: #ffffff;
-
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-
-.wSpacing img {
-    max-height: 200px;
 }
 
 .wSpacing h2 {
@@ -128,4 +113,11 @@ p {
 
 .linkColor {
     color: blue;
+}
+
+@media only screen and ( max-width:768px ){	
+    .box{
+        width:100%;
+        max-width:40%;
+    }
 }
